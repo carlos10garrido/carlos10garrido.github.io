@@ -35,7 +35,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     height: fit-content;
-    position: fixed;
+    position: sticky;
     top: 80px;
     width: 400px;
     max-height: calc(100vh - 100px);
@@ -103,7 +103,6 @@ body {
 /* Right Column - Publications */
 .right-column {
     padding: 0 1rem;
-    margin-left: 420px; /* 400px (width) + 20px (gap) */
 }
 
 /* Header and Navigation */
@@ -281,7 +280,6 @@ footer {
 
     .right-column {
         padding: 0;
-        margin-left: 0;
     }
 
     .publications-list {
