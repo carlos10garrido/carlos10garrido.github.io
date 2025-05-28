@@ -33,4 +33,50 @@ window.addEventListener('scroll', () => {
             link.classList.add('active');
         }
     });
-}); 
+});
+
+// Function to create a publication element
+function createPublicationElement(paper) {
+    const publication = document.createElement('div');
+    publication.className = 'publication';
+    
+    publication.innerHTML = `
+        <h3>${paper.title}</h3>
+        <p class="authors">${paper.authors}</p>
+        <p class="description">${paper.description}</p>
+        <p class="venue">${paper.venue}</p>
+        <div class="links">
+            <a href="assets/papers/${paper.filename}" class="btn" target="_blank">
+                <i class="fas fa-file-pdf"></i> Paper
+            </a>
+            ${paper.code ? `
+                <a href="${paper.code}" class="btn" target="_blank">
+                    <i class="fas fa-code"></i> Code
+                </a>
+            ` : ''}
+        </div>
+    `;
+    
+    return publication;
+}
+
+// Function to load papers
+async function loadPapers() {
+    try {
+        const response = await fetch('assets/papers/papers.json');
+        const papers = await response.json();
+        
+        const publicationsList = document.querySelector('.publications-list');
+        publicationsList.innerHTML = ''; // Clear existing publications
+        
+        papers.forEach(paper => {
+            const publicationElement = createPublicationElement(paper);
+            publicationsList.appendChild(publicationElement);
+        });
+    } catch (error) {
+        console.error('Error loading papers:', error);
+    }
+}
+
+// Load papers when the page loads
+document.addEventListener('DOMContentLoaded', loadPapers); 
