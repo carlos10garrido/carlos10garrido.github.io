@@ -55,7 +55,7 @@
     },
     {
         "title": "Continual learning for document image binarization",
-        "authors": "Carlos Garrido-Munoz, Antonio Sánchez-Hernández, Francisco J. Castellanos",
+        "authors": "Carlos Garrido-Munoz, Adrián Sánchez-Hernández, Francisco J. Castellanos, Jorge Calvo-Zaragoza",
         "description": "Study on applying continual learning techniques to document image binarization tasks.",
         "venue": "2022 26th International Conference on Pattern Recognition (ICPR) (1443-1449)",
         "filename": "Binarization-CL.pdf",
