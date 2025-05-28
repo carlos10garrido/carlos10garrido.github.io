@@ -14,7 +14,7 @@ body {
 
 /* Container */
 .container {
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -22,7 +22,7 @@ body {
 /* Layout Grid */
 .layout-grid {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 400px 1fr;
     gap: 3rem;
     margin-top: 60px;
 }
@@ -36,7 +36,7 @@ body {
     height: fit-content;
     position: sticky;
     top: 80px;
-    width: 300px;
+    width: 400px;
 }
 
 .profile {
@@ -100,7 +100,7 @@ body {
 /* Right Column - Publications */
 .right-column {
     padding: 0 1rem;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -167,7 +167,7 @@ h3 {
 .publications-list {
     display: grid;
     gap: 2rem;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -277,6 +277,10 @@ footer {
 
     .right-column {
         padding: 0;
+    }
+
+    .publications-list {
+        max-width: 100%;
     }
 }
 
