@@ -14,7 +14,7 @@ body {
 
 /* Container */
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -22,8 +22,8 @@ body {
 /* Layout Grid */
 .layout-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 3rem;
     margin-top: 60px;
 }
 
@@ -36,14 +36,16 @@ body {
     height: fit-content;
     position: sticky;
     top: 80px;
+    width: 300px;
 }
 
 .profile {
-    text-align: center;
+    text-align: left;
 }
 
 .profile-image {
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .image-placeholder {
@@ -63,6 +65,36 @@ body {
 .description {
     margin-top: 1.5rem;
     text-align: left;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.social-link i {
+    width: 24px;
+    margin-right: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.social-link:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+    transform: translateX(5px);
 }
 
 /* Right Column - Publications */
@@ -209,6 +241,17 @@ footer {
     .left-column {
         position: static;
         margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .social-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social-link {
+        padding: 0.5rem 1rem;
     }
 
     nav ul {
