@@ -3,7 +3,7 @@
         "title": "Handwritten Text Recognition: A Survey",
         "authors": "Carlos Garrido-Munoz, Antonio Rios-Vila, Jorge Calvo-Zaragoza",
         "description": "A comprehensive survey on Handwritten Text Recognition, covering recent advances, challenges, and future directions in the field.",
-        "venue": "Submitted to TPAMI",
+        "venue": "Submitted to Transactions on Pattern Analysis and Machine Intelligence (TPAMI)",
         "filename": "HTR-Survey.pdf",
         "code": "",
         "year": 2025
@@ -12,7 +12,7 @@
         "title": "On the Generalization of Handwritten Text Recognition Models",
         "authors": "Carlos Garrido-Munoz, Jorge Calvo-Zaragoza",
         "description": "Study on the generalization capabilities of Handwritten Text Recognition models, analyzing their performance across different domains and datasets.",
-        "venue": "Accepted at CVPR 2025 (Nashville, USA)",
+        "venue": "Accepted at Computer Vision and Pattern Recognition (CVPR) 2025 (Nashville, USA)",
         "filename": "HTR-OOD.pdf",
         "code": "https://github.com/carlos10garrido/HTR-OOD",
         "year": 2025
