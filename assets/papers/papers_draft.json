@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Evaluating Domain Generalization in Kitchen Utensils Classification",
+        "authors": "Carlos Garrido-Munoz, Miguel Alfaro-Contreras, Jorge Calvo-Zaragoza",
+        "description": "Study on domain generalization techniques applied to kitchen utensils classification tasks.",
+        "venue": "Iberian Conference on Pattern Recognition and Image Analysis 2023 (108-118)",
+        "filename": "Kitchen-Classification.pdf",
+        "code": ""
+    },
+    {
+        "title": "Efficient Approaches for Notation Assembly in Optical Music Recognition",
+        "authors": "Carlos Penarrubia, Carlos Garrido-Munoz, Jose J. Valero-Mas, Jorge Calvo-Zaragoza",
+        "description": "Research on efficient methods for assembling musical notation in Optical Music Recognition systems.",
+        "venue": "4th International Workshop on Reading Music Systems (2022)",
+        "filename": "OMR-Assembly-2022.pdf",
+        "code": ""
+    },
+    {
+        "title": "End-to-End Graph Prediction for Optical Music Recognition",
+        "authors": "Carlos Garrido-Munoz, Antonio Rios-Vila, Jorge Calvo-Zaragoza",
+        "description": "End-to-end approach for graph prediction in Optical Music Recognition systems.",
+        "venue": "4th International Workshop on Reading Music Systems (2022)",
+        "filename": "OMR-Graph.pdf",
+        "code": ""
+    },
+    {
+        "title": "Domain Adaptation for Document Image Binarization via Domain Classification",
+        "authors": "Carlos Garrido-Munoz, Antonio Sánchez Hernández, Francisco J. Castellanos",
+        "description": "Study on domain adaptation techniques for document image binarization using domain classification.",
+        "venue": "IOS Press",
+        "filename": "Binarization-DA.pdf",
+        "code": ""
+    }
+] 
