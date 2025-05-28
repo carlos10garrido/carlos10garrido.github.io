@@ -5,7 +5,8 @@
         "description": "A comprehensive survey on Handwritten Text Recognition, covering recent advances, challenges, and future directions in the field.",
         "venue": "Submitted to TPAMI",
         "filename": "HTR-Survey.pdf",
-        "code": ""
+        "code": "",
+        "year": 2024
     },
     {
         "title": "On the Generalization of Handwritten Text Recognition Models",
@@ -13,7 +14,8 @@
         "description": "Study on the generalization capabilities of Handwritten Text Recognition models, analyzing their performance across different domains and datasets.",
         "venue": "Accepted at CVPR 2025 (Nashville, USA)",
         "filename": "HTR-OOD.pdf",
-        "code": "https://github.com/carlos10garrido/HTR-OOD"
+        "code": "https://github.com/carlos10garrido/HTR-OOD",
+        "year": 2025
     },
     {
         "title": "Spatial context-based self-supervised learning for handwritten text recognition",
@@ -21,7 +23,8 @@
         "description": "Novel approach using spatial context-based self-supervised learning techniques for improving handwritten text recognition performance.",
         "venue": "Accepted at Pattern Recognition Letters",
         "filename": "HTR-SSL.pdf",
-        "code": ""
+        "code": "",
+        "year": 2024
     },
     {
         "title": "Efficient Notation Assembly in Optical Music Recognition",
@@ -29,7 +32,8 @@
         "description": "Research on efficient methods for assembling musical notation in Optical Music Recognition systems.",
         "venue": "ISMIR 2023 (182-189)",
         "filename": "OMR-Assembly.pdf",
-        "code": ""
+        "code": "",
+        "year": 2023
     },
     {
         "title": "Region-based layout analysis of music score images",
@@ -37,7 +41,8 @@
         "description": "Novel approach for analyzing the layout of music score images using region-based techniques.",
         "venue": "Expert Systems with Applications (ESWA) 209, 118211 (2022)",
         "filename": "Music-Layout.pdf",
-        "code": ""
+        "code": "",
+        "year": 2022
     },
     {
         "title": "A holistic approach for image-to-graph: application to optical music recognition",
@@ -45,7 +50,8 @@
         "description": "Comprehensive approach for converting music score images to graph representations in Optical Music Recognition.",
         "venue": "International Journal on Document Analysis and Recognition (IJDAR) 25(4) (2022)",
         "filename": "Image-to-Graph.pdf",
-        "code": ""
+        "code": "",
+        "year": 2022
     },
     {
         "title": "Continual learning for document image binarization",
@@ -53,7 +59,8 @@
         "description": "Study on applying continual learning techniques to document image binarization tasks.",
         "venue": "2022 26th International Conference on Pattern Recognition (ICPR) (1443-1449)",
         "filename": "Binarization-CL.pdf",
-        "code": ""
+        "code": "",
+        "year": 2022
     },
     {
         "title": "Retrieval of music-notation primitives via image-to-sequence approaches",
@@ -61,6 +68,7 @@
         "description": "Research on retrieving music notation primitives using image-to-sequence approaches.",
         "venue": "Iberian Conference on Pattern Recognition and Image Analysis 2022 (482-492)",
         "filename": "Music-Primitives.pdf",
-        "code": ""
+        "code": "",
+        "year": 2022
     }
 ] 
