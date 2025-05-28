@@ -3,7 +3,7 @@
         "title": "On the Generalization of Handwritten Text Recognition Models",
         "authors": "Carlos Garrido-Munoz, Jorge Calvo-Zaragoza",
         "description": "Brief description of the paper and its contributions. This can include the main findings, methodology, and impact of the work.",
-        "venue": "CVPR 2025",
+        "venue": "Accepted at CVPR 2025 (Nashville, USA)",
         "filename": "HTR-OOD.pdf",
         "code": "https://github.com/carlos10garrido/HTR-OOD"
     },
