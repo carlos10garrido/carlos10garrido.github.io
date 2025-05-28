@@ -85,10 +85,11 @@ async function loadPapers() {
 
         // Sort papers by year (most recent first)
         papers.sort((a, b) => {
-            // Handle papers without year in venue
-            const yearA = a.venue.match(/\d{4}/) ? parseInt(a.venue.match(/\d{4}/)[0]) : 0;
-            const yearB = b.venue.match(/\d{4}/) ? parseInt(b.venue.match(/\d{4}/)[0]) : 0;
-            return yearB - yearA;
+            if (b.year !== a.year) {
+                return b.year - a.year;
+            }
+            // If years are equal, sort by title alphabetically
+            return a.title.localeCompare(b.title);
         });
 
         // Add each paper to the list
