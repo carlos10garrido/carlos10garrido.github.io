@@ -13,7 +13,7 @@
         "authors": "Carlos Garrido-Munoz, Jorge Calvo-Zaragoza",
         "description": "Study on the generalization capabilities of Handwritten Text Recognition models, analyzing their performance across different domains and datasets.",
         "venue": "Accepted at Computer Vision and Pattern Recognition (CVPR) 2025 (Nashville, USA)",
-        "filename": "HTR-OOD.pdf",
+        "filename": "assets/papers/cvpr_2025.pdf",
         "code": "https://github.com/carlos10garrido/HTR-OOD",
         "year": 2025
     },
