@@ -49,7 +49,7 @@ function createPublicationElement(paper) {
             <a href="assets/papers/${paper.filename}" class="btn" target="_blank">
                 <i class="fas fa-file-pdf"></i> Paper
             </a>
-            ${paper.code ? `
+            ${paper.code && paper.code.trim() !== '' ? `
                 <a href="${paper.code}" class="btn" target="_blank">
                     <i class="fas fa-code"></i> Code
                 </a>
@@ -85,8 +85,9 @@ async function loadPapers() {
 
         // Sort papers by year (most recent first)
         papers.sort((a, b) => {
-            const yearA = parseInt(a.venue.match(/\d{4}/)[0]);
-            const yearB = parseInt(b.venue.match(/\d{4}/)[0]);
+            // Handle papers without year in venue
+            const yearA = a.venue.match(/\d{4}/) ? parseInt(a.venue.match(/\d{4}/)[0]) : 0;
+            const yearB = b.venue.match(/\d{4}/) ? parseInt(b.venue.match(/\d{4}/)[0]) : 0;
             return yearB - yearA;
         });
 

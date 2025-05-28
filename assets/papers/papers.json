@@ -6,5 +6,13 @@
         "venue": "CVPR 2025",
         "filename": "HTR-OOD.pdf",
         "code": "https://github.com/carlos10garrido/HTR-OOD"
+    },
+    {
+        "title": "Handwritten Text Recognition: A Survey",
+        "authors": "Carlos Garrido-Munoz, Antonio Ríos-Vila, Jorge Calvo-Zaragoza",
+        "description": "Brief description of the paper and its contributions. This can include the main findings, methodology, and impact of the work.",
+        "venue": "(submitted to TPAMI)",
+        "filename": "HTR-OOD.pdf",
+        "code": ""
     }
 ] 
