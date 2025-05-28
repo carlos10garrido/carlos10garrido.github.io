@@ -1,18 +1,98 @@
 [
     {
+        "title": "Handwritten Text Recognition: A Survey",
+        "authors": "Carlos Garrido-Munoz, Antonio Rios-Vila, Jorge Calvo-Zaragoza",
+        "description": "A comprehensive survey on Handwritten Text Recognition, covering recent advances, challenges, and future directions in the field.",
+        "venue": "arXiv preprint arXiv:2502.08417 (2025)",
+        "filename": "HTR-Survey.pdf",
+        "code": ""
+    },
+    {
         "title": "On the Generalization of Handwritten Text Recognition Models",
         "authors": "Carlos Garrido-Munoz, Jorge Calvo-Zaragoza",
-        "description": "Brief description of the paper and its contributions. This can include the main findings, methodology, and impact of the work.",
-        "venue": "Accepted at CVPR 2025 (Nashville, USA)",
+        "description": "Study on the generalization capabilities of Handwritten Text Recognition models, analyzing their performance across different domains and datasets.",
+        "venue": "arXiv preprint arXiv:2411.17332 (2024)",
         "filename": "HTR-OOD.pdf",
         "code": "https://github.com/carlos10garrido/HTR-OOD"
     },
     {
-        "title": "Handwritten Text Recognition: A Survey",
+        "title": "Spatial context-based self-supervised learning for handwritten text recognition",
+        "authors": "Carlos Penarrubia, Carlos Garrido-Munoz, Jose J. Valero-Mas, Jorge Calvo-Zaragoza",
+        "description": "Novel approach using spatial context-based self-supervised learning techniques for improving handwritten text recognition performance.",
+        "venue": "arXiv preprint arXiv:2404.11585 (2024)",
+        "filename": "HTR-SSL.pdf",
+        "code": ""
+    },
+    {
+        "title": "Efficient Notation Assembly in Optical Music Recognition",
+        "authors": "Carlos Peñarrubia, Carlos Garrido-Munoz, Jose J. Valero-Mas, Jorge Calvo-Zaragoza",
+        "description": "Research on efficient methods for assembling musical notation in Optical Music Recognition systems.",
+        "venue": "ISMIR 2023 (182-189)",
+        "filename": "OMR-Assembly.pdf",
+        "code": ""
+    },
+    {
+        "title": "Evaluating Domain Generalization in Kitchen Utensils Classification",
+        "authors": "Carlos Garrido-Munoz, Miguel Alfaro-Contreras, Jorge Calvo-Zaragoza",
+        "description": "Study on domain generalization techniques applied to kitchen utensils classification tasks.",
+        "venue": "Iberian Conference on Pattern Recognition and Image Analysis 2023 (108-118)",
+        "filename": "Kitchen-Classification.pdf",
+        "code": ""
+    },
+    {
+        "title": "Region-based layout analysis of music score images",
+        "authors": "Francisco J. Castellanos, Carlos Garrido-Munoz, Antonio Ríos-Vila, Jorge Calvo-Zaragoza",
+        "description": "Novel approach for analyzing the layout of music score images using region-based techniques.",
+        "venue": "Expert Systems with Applications 209, 118211 (2022)",
+        "filename": "Music-Layout.pdf",
+        "code": ""
+    },
+    {
+        "title": "A holistic approach for image-to-graph: application to optical music recognition",
+        "authors": "Carlos Garrido-Munoz, Antonio Rios-Vila, Jorge Calvo-Zaragoza",
+        "description": "Comprehensive approach for converting music score images to graph representations in Optical Music Recognition.",
+        "venue": "International Journal on Document Analysis and Recognition (IJDAR) 25(4) (2022)",
+        "filename": "Image-to-Graph.pdf",
+        "code": ""
+    },
+    {
+        "title": "Efficient Approaches for Notation Assembly in Optical Music Recognition",
+        "authors": "Carlos Penarrubia, Carlos Garrido-Munoz, Jose J. Valero-Mas, Jorge Calvo-Zaragoza",
+        "description": "Research on efficient methods for assembling musical notation in Optical Music Recognition systems.",
+        "venue": "4th International Workshop on Reading Music Systems (2022)",
+        "filename": "OMR-Assembly-2022.pdf",
+        "code": ""
+    },
+    {
+        "title": "End-to-End Graph Prediction for Optical Music Recognition",
+        "authors": "Carlos Garrido-Munoz, Antonio Rios-Vila, Jorge Calvo-Zaragoza",
+        "description": "End-to-end approach for graph prediction in Optical Music Recognition systems.",
+        "venue": "4th International Workshop on Reading Music Systems (2022)",
+        "filename": "OMR-Graph.pdf",
+        "code": ""
+    },
+    {
+        "title": "Continual learning for document image binarization",
+        "authors": "Carlos Garrido-Munoz, Antonio Sánchez-Hernández, Francisco J. Castellanos",
+        "description": "Study on applying continual learning techniques to document image binarization tasks.",
+        "venue": "2022 26th International Conference on Pattern Recognition (ICPR) (1443-1449)",
+        "filename": "Binarization-CL.pdf",
+        "code": ""
+    },
+    {
+        "title": "Retrieval of music-notation primitives via image-to-sequence approaches",
         "authors": "Carlos Garrido-Munoz, Antonio Ríos-Vila, Jorge Calvo-Zaragoza",
-        "description": "Brief description of the paper and its contributions. This can include the main findings, methodology, and impact of the work.",
-        "venue": "(submitted to TPAMI)",
-        "filename": "HTR-OOD.pdf",
+        "description": "Research on retrieving music notation primitives using image-to-sequence approaches.",
+        "venue": "Iberian Conference on Pattern Recognition and Image Analysis 2022 (482-492)",
+        "filename": "Music-Primitives.pdf",
+        "code": ""
+    },
+    {
+        "title": "Domain Adaptation for Document Image Binarization via Domain Classification",
+        "authors": "Carlos Garrido-Munoz, Antonio Sánchez Hernández, Francisco J. Castellanos",
+        "description": "Study on domain adaptation techniques for document image binarization using domain classification.",
+        "venue": "IOS Press",
+        "filename": "Binarization-DA.pdf",
         "code": ""
     }
 ] 
