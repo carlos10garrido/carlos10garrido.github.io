@@ -64,17 +64,43 @@ function createPublicationElement(paper) {
 async function loadPapers() {
     try {
         const response = await fetch('assets/papers/papers.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const papers = await response.json();
         
         const publicationsList = document.querySelector('.publications-list');
-        publicationsList.innerHTML = ''; // Clear existing publications
+        if (!publicationsList) {
+            console.error('Publications list element not found');
+            return;
+        }
+
+        // Clear loading message
+        publicationsList.innerHTML = '';
         
+        if (papers.length === 0) {
+            publicationsList.innerHTML = '<p class="no-papers">No publications available.</p>';
+            return;
+        }
+
+        // Sort papers by year (most recent first)
+        papers.sort((a, b) => {
+            const yearA = parseInt(a.venue.match(/\d{4}/)[0]);
+            const yearB = parseInt(b.venue.match(/\d{4}/)[0]);
+            return yearB - yearA;
+        });
+
+        // Add each paper to the list
         papers.forEach(paper => {
             const publicationElement = createPublicationElement(paper);
             publicationsList.appendChild(publicationElement);
         });
     } catch (error) {
         console.error('Error loading papers:', error);
+        const publicationsList = document.querySelector('.publications-list');
+        if (publicationsList) {
+            publicationsList.innerHTML = '<p class="error">Error loading publications. Please try again later.</p>';
+        }
     }
 }
 
