@@ -6,7 +6,7 @@
         "venue": "Submitted to TPAMI",
         "filename": "HTR-Survey.pdf",
         "code": "",
-        "year": 2024
+        "year": 2025
     },
     {
         "title": "On the Generalization of Handwritten Text Recognition Models",
@@ -21,7 +21,7 @@
         "title": "Spatial context-based self-supervised learning for handwritten text recognition",
         "authors": "Carlos Penarrubia, Carlos Garrido-Munoz, Jose J. Valero-Mas, Jorge Calvo-Zaragoza",
         "description": "Novel approach using spatial context-based self-supervised learning techniques for improving handwritten text recognition performance.",
-        "venue": "Accepted at Pattern Recognition Letters",
+        "venue": "Accepted at Pattern Recognition Letters (PRL), 2025",
         "filename": "HTR-SSL.pdf",
         "code": "",
         "year": 2024
